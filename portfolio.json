@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
-  "repository": "AlonsoMarcosM/spark-kafka-airflow-data-platform",
-  "repository_url": "https://github.com/AlonsoMarcosM/spark-kafka-airflow-data-platform",
+  "repository": "alonsomarcosm99/spark-kafka-airflow-data-platform",
+  "repository_url": "https://github.com/alonsomarcosm99/spark-kafka-airflow-data-platform",
   "slug": "big-data-catalog-batch-streaming",
   "title": {
     "es": "Plataforma de datos Spark, Kafka y Airflow",
@@ -115,19 +115,19 @@
   "links": [
     {
       "type": "technical_docs",
-      "url": "https://alonsomarcosm.github.io/spark-kafka-airflow-data-platform/"
+      "url": "https://alonsomarcosm99.github.io/spark-kafka-airflow-data-platform/"
     },
     {
       "type": "case_study",
-      "url": "https://alonsomarcosm.github.io/es/projects/big-data-catalog-batch-streaming/"
+      "url": "https://alonsomarcosm99.github.io/es/projects/big-data-catalog-batch-streaming/"
     },
     {
       "type": "architecture",
-      "url": "https://alonsomarcosm.github.io/spark-kafka-airflow-data-platform/docs/visualizaciones/arquitectura-ejecutiva.svg"
+      "url": "https://alonsomarcosm99.github.io/spark-kafka-airflow-data-platform/docs/visualizaciones/arquitectura-ejecutiva.svg"
     },
     {
       "type": "github",
-      "url": "https://github.com/AlonsoMarcosM/spark-kafka-airflow-data-platform"
+      "url": "https://github.com/alonsomarcosm99/spark-kafka-airflow-data-platform"
     }
   ]
 }

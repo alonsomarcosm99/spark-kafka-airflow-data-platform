@@ -1,8 +1,8 @@
 # Plataforma de datos Spark, Kafka y Airflow
 
-> **Documentación técnica:** https://alonsomarcosm.github.io/spark-kafka-airflow-data-platform/
+> **Documentación técnica:** https://alonsomarcosm99.github.io/spark-kafka-airflow-data-platform/
 >
-> **Caso de estudio:** https://alonsomarcosm.github.io/es/projects/big-data-catalog-batch-streaming/
+> **Caso de estudio:** https://alonsomarcosm99.github.io/es/projects/big-data-catalog-batch-streaming/
 
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-4.0.1-E25A1C?logo=apachespark&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta%20Lake-4.0.0-00ADD4)
