@@ -50,7 +50,7 @@ Rutas:
 
 - Bronze: eventos crudos de Kafka.
 - Silver: eventos parseados y normalizados.
-- Gold: agregacion por ventana (1 minuto) con watermark y join con batch (SQL Silver).
+- Gold: agregacion por ventana de 30 segundos con watermark de 1 minuto y join con batch (SQL Silver).
 
 Rutas:
 - `s3a://catalogo-datasets/bronze/kafka/dataset_updates/`
@@ -67,6 +67,6 @@ Rutas:
 ## Notas clave
 
 - Delta Lake se usa en todas las capas (Bronze/Silver/Gold).
-- El streaming usa ventanas de 1 minuto y watermark de 5 minutos.
+- El streaming usa ventanas de 30 segundos y watermark de 1 minuto.
 - El streaming enriquece eventos con datos batch (join con Silver SQL).
 

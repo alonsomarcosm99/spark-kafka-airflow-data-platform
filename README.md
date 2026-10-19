@@ -1,5 +1,9 @@
 # Plataforma de datos Spark, Kafka y Airflow
 
+**En una frase:** Plataforma de datos que mantiene al día un catálogo de datasets combinando tres fuentes: carga incremental diaria desde SQL Server por fecha de modificación, con el último estado de cada dataset en Silver, CSV con JSON embebido cada noche y eventos Kafka en streaming agregados en ventanas de 30 segundos con watermark de 1 minuto y enriquecidos con el batch. Spark escribe Bronze → Silver → Gold en Delta Lake sobre MinIO, Airflow orquesta los DAGs, el entorno completo se levanta con `docker compose up` y GitHub Actions valida código, Compose, diagramas y secretos en cada push.
+
+**In one sentence:** Data platform that keeps a dataset catalog up to date from three sources: daily incremental loads from SQL Server by modification date, keeping the latest state of each dataset in Silver, nightly CSV files with embedded JSON and streaming Kafka events aggregated in 30 second windows with a 1 minute watermark and enriched with the batch data. Spark writes Bronze → Silver → Gold to Delta Lake on MinIO, Airflow orchestrates the DAGs, the whole environment starts with `docker compose up` and GitHub Actions checks code, Compose, diagrams and secrets on every push.
+
 > **Documentación técnica:** https://alonsomarcosm99.github.io/spark-kafka-airflow-data-platform/
 >
 > **Caso de estudio:** https://alonsomarcosm99.github.io/es/projects/big-data-catalog-batch-streaming/
