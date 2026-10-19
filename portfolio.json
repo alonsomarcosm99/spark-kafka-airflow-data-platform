@@ -11,7 +11,7 @@
   "classification": "applied-academic-project",
   "problem": {
     "es": "Mantener un catálogo vivo de metadatos combinando fuentes estructuradas, semiestructuradas y eventos en tiempo real.",
-    "en": "Maintain a living metadata catalogue by combining structured, semi-structured and real-time event sources."
+    "en": "Maintain a living metadata catalog by combining structured, semi-structured and real-time event sources."
   },
   "architecture": {
     "es": "SQL Server, CSV y Kafka alimentan jobs Spark que publican capas Bronze, Silver y Gold sobre Delta Lake y MinIO. Airflow orquesta los flujos batch.",
